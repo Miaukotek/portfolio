@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontakt – Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">O mnie</a></li>
+        <li><a href="oferta.html">Oferta</a></li>
+        <li><a href="projekty.html">Projekty</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Kontakt</h1>
+      <p>Masz pytanie? Wypełnij formularz, a skontaktuję się z Tobą:</p>
+      <form action="https://formspree.io/f/moqgknzy" method="POST">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Wyślij</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 [Twoje Imię]. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+
+</body>
+</html>
